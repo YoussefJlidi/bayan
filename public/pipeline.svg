@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180">
+  <defs>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#020617"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="pgold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="180" rx="12" fill="url(#pbg)"/>
+  <rect width="1200" height="180" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Step 1: Racine -->
+  <rect x="20" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="80" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">جذر</text>
+  <text x="80" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Racine</text>
+  <text x="80" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">trilatere</text>
+
+  <text x="155" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 2: Morphologie -->
+  <rect x="170" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="230" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">صرف</text>
+  <text x="230" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Morphologie</text>
+  <text x="230" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">sarf</text>
+
+  <text x="305" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 3: Syntaxe -->
+  <rect x="320" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="380" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">نحو</text>
+  <text x="380" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Syntaxe</text>
+  <text x="380" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">nahw</text>
+
+  <text x="455" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 4: Etymologie -->
+  <rect x="470" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="530" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">اشتقاق</text>
+  <text x="530" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Etymologie</text>
+  <text x="530" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">semitique</text>
+
+  <text x="605" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 5: Derives -->
+  <rect x="620" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="680" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">مشتقات</text>
+  <text x="680" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Derives</text>
+  <text x="680" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">coraniques</text>
+
+  <text x="755" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 6: Rhetorique -->
+  <rect x="770" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="830" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">بلاغة</text>
+  <text x="830" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Rhetorique</text>
+  <text x="830" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">3 sciences</text>
+
+  <text x="905" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 7: 9 Tafsirs -->
+  <rect x="920" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#d97706" stroke-opacity="0.3"/>
+  <text x="980" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">تفسير</text>
+  <text x="980" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">9 Tafsirs</text>
+  <text x="980" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">croises</text>
+
+  <text x="1055" y="92" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#92400e">&gt;</text>
+
+  <!-- Step 8: Tanzil -->
+  <rect x="1070" y="30" width="120" height="120" rx="10" fill="#0f172a" stroke="#d97706" stroke-opacity="0.3"/>
+  <text x="1130" y="72" text-anchor="middle" font-family="serif" font-size="22" fill="#f59e0b">تنزيل</text>
+  <text x="1130" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Tanzil</text>
+  <text x="1130" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748b">application</text>
+</svg>

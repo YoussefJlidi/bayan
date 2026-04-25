@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mawrid | Moteur d'Exegese Coranique",
+  title: "Bayan | Moteur d'Exegese Coranique",
   description:
     "Analyse linguistique et exegetique du Coran. 9 sources de tafsir croisees, morphologie, rhetorique arabe, tanzil.",
 };

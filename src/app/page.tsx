@@ -112,7 +112,7 @@ export default function HomePage() {
       <section className="relative pattern-islamic py-24 md:py-36 text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="arabic text-7xl md:text-9xl font-bold gradient-gold mb-6">
-            المَوْرِد
+            بَيَان
           </h1>
           <p className="font-heading text-2xl md:text-3xl text-ink-200 mb-4">
             Moteur d&apos;Exegese Coranique
@@ -394,7 +394,7 @@ export default function HomePage() {
       {/* FOOTER */}
       <footer className="py-16 border-t border-ink-800">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="arabic text-3xl text-gold-700 mb-3">المَوْرِد</p>
+          <p className="arabic text-3xl text-gold-700 mb-3">بَيَان</p>
           <p className="text-ink-400 text-sm mb-2">
             9 sources &middot; 5 niveaux &middot; 3 sciences rhetoriques &middot; 8 etapes
           </p>
