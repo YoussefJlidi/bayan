@@ -6,6 +6,7 @@ const sections = [
   { id: "hero", label: "Bayan", arabic: "بَيَان" },
   { id: "hierarchie", label: "Hierarchie", arabic: "مراتب" },
   { id: "sources", label: "9 Sources", arabic: "مصادر" },
+  { id: "ibn-ashur", label: "Ibn 'Ashur", arabic: "ابن عاشور" },
   { id: "pipeline", label: "Pipeline", arabic: "منهج" },
   { id: "balagha", label: "Rhetorique", arabic: "بلاغة" },
   { id: "certitude", label: "Certitude", arabic: "يقين" },
