@@ -1,3 +1,5 @@
+import Sidebar from "@/components/Sidebar";
+
 const hierarchyLevels = [
   {
     number: 1,
@@ -107,9 +109,11 @@ const balaghaSciences = [
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen scroll-smooth">
+      <Sidebar />
+
       {/* HERO */}
-      <section className="relative pattern-islamic py-24 md:py-36 text-center">
+      <section id="hero" className="relative pattern-islamic py-24 md:py-36 text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="arabic text-7xl md:text-9xl font-bold gradient-gold mb-6">
             بَيَان
@@ -127,7 +131,7 @@ export default function HomePage() {
       </section>
 
       {/* HIERARCHY */}
-      <section className="py-20 md:py-28">
+      <section id="hierarchie" className="py-20 md:py-28">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-3">
             Hierarchie des sources
@@ -169,7 +173,7 @@ export default function HomePage() {
       </section>
 
       {/* 9 SOURCES */}
-      <section className="py-20 md:py-28 bg-ink-900/30">
+      <section id="sources" className="py-20 md:py-28 bg-ink-900/30">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-3">
             Les 9 sources
@@ -217,7 +221,7 @@ export default function HomePage() {
       </section>
 
       {/* PIPELINE */}
-      <section className="py-20 md:py-28">
+      <section id="pipeline" className="py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-3">
             Pipeline d&apos;analyse
@@ -251,7 +255,7 @@ export default function HomePage() {
       </section>
 
       {/* BALAGHA */}
-      <section className="py-20 md:py-28 bg-ink-900/30">
+      <section id="balagha" className="py-20 md:py-28 bg-ink-900/30">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-3">
             Les 3 sciences de la rhetorique
@@ -289,7 +293,7 @@ export default function HomePage() {
       </section>
 
       {/* CERTAINTY */}
-      <section className="py-20 md:py-28">
+      <section id="certitude" className="py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-3">
             Echelle de certitude
@@ -323,7 +327,7 @@ export default function HomePage() {
       </section>
 
       {/* PROCESS */}
-      <section className="py-20 md:py-28 bg-ink-900/30">
+      <section id="processus" className="py-20 md:py-28 bg-ink-900/30">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-12">
             Processus de consultation
@@ -361,7 +365,7 @@ export default function HomePage() {
       </section>
 
       {/* PRINCIPLES */}
-      <section className="py-20 md:py-28">
+      <section id="principes" className="py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-heading text-3xl md:text-4xl text-ink-50 mb-12">
             7 principes
